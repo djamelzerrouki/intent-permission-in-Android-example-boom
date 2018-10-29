@@ -20,10 +20,6 @@ public class MainActivity extends AppCompatActivity {
         intent.setAction("com.example.djamel.tp_4_dg_app_Run");
         intent.addCategory("android.intent.category.DEFAULT");
         startActivity(intent);
-        Toast.makeText(this,"hi jimmi",Toast.LENGTH_LONG).show();
-
-
-        //startActivity(new Intent("course.labs.permissions.DANGEROUS_ACTIVITY"));
-
-    }
+        Toast.makeText(this,"hi jimmi ,It has been successfully opened!",Toast.LENGTH_LONG).show();
+  }
 }
